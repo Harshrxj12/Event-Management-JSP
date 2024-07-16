@@ -6,9 +6,13 @@
 <meta charset="ISO-8859-1">
 <title>Event Registration Page</title>
 <style>
+    body{
+        background-color: rgb(144, 250, 250);
+    }
 button{
 background-color:black;
 color:white;
+border-radius: 5px;
 }
 button:hover{
 cursor:pointer;
@@ -17,6 +21,32 @@ a{
 text-decoration:none;
 color:white;
 }
+
+ table {
+        width: 60%;
+        border-collapse: collapse;
+    background-color: rgb(109, 253, 205);
+    border-radius: 5px;
+
+        
+    }
+    table, th, td {
+        border: 1px solid black;
+    }
+    th, td {
+        padding: 12px;
+        text-align: left;
+    }
+    th {
+        background-color: blue;
+    }
+h1{
+    text-decoration: underline;
+}
+form{
+height:60%;
+}
+
 
 
 </style>
@@ -27,7 +57,7 @@ color:white;
 <h1>Event Registration</h1>
 <form action="StudentManagement.jsp" method = "post">
 <table border = "5" style="box-shadow:0px 0px 10px black;" >
-<tr>
+<tr class = "tat">
 <td>Event ID</td>
 <td>Event Name</td>
 <td>Organiser</td>

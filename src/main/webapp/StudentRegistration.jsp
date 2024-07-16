@@ -9,6 +9,7 @@
     body {
         
         background-color: skyblue;
+        
     }
     h2 {
         color: red;
