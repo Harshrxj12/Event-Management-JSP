@@ -5,6 +5,68 @@
 <head>
 <meta charset="UTF-8">
 <title>Event Management</title>
+<style>
+    body {
+        
+        background-color: skyblue;
+    }
+    h2 {
+        color: red;
+    }
+    hr {
+        border: 1px solid black;
+    }
+    form {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+        display: inline-block;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    table, th, td {
+        border: 1px solid black;
+    }
+    th, td {
+        padding: 12px;
+        text-align: left;
+    }
+    th {
+        background-color: blue;
+    }
+    input[type="text"], select {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid ;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        width: 100%;
+        background-color: green;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: red;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
 </head>
 <body>
 <center>
@@ -13,7 +75,7 @@
 <p style="color:purple;">Registration open till Monday 14, 2024, 5pm</p>
 <hr>
 <form method="post"  action = "StudentRegister.jsp">
-<table border="5"> 
+<table> 
 <tr>
 <td>Student/Group Name</td>
 <td><input type="text" placeholder="Enter Name" id="name" name="student_name" required></td>
